@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Стили-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Портфолио</title>
+</head>
+
+<body>
+
+
+    <section id="glavnaya" class="header">
+
+        <!--навигация-->
+        <nav id="menu" class="navbar navbar-expand-md sticky-top">
+            <div class="container-fluid background">
+
+                <a href="#" class="navbar-brand"><img class="logo" src="buffer.svg"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"><img class="logo_hidden" src="menu (1).svg"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#glavnaya" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#obomne" class="nav-link">About me</a></li>
+                        <li class="nav-item"><a href="#skill" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#proekty" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contacti" class="nav-link">Contacts</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!--FRONTEND-->
+        <div class="overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-4 offset-md-5">
+                        <div class="frontend">
+                            <h1 class="work"><a href="#"><span class="f">F</span>RONTEND</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="body">
+
+        <canvas class="matrix" id="q"></canvas>
+
+        <div class="overlay hey">
+            <div id="obomne" class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="description text-center aboutme">
+                            <h2 class="welcome">WELCOME</h2>
+                            <p>My name is Adelya, I'm 20 years old and I'm a Web Progammer.
+                                My speciality is Frontend. You can find some of my projects
+                                on this page, which were created within the last six months.
+                                Portfolio is updated very often, as I am constantly learning
+                                something new and implementing various interesting projects.<br>
+                            </p>
+                            <p>Below you will find my skills, examples of works and contact info.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-5 offset-md-1 ">
+                        <p class="img_center"><img class="me" src="nicole-honeywill-DXzjhO5Hpc4-unsplash.jpg"
+                                width="490px" height="575px"></p>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container skills">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 id="skill" class="my_skills">SKILLS</h2>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4 html_border">
+                    <a class="skills_name" href="#">
+                        <p class="skills_p">
+                            <span class="skills_name">HTML</span> <br>
+                            <img class="skills_img" src="html-5.png" width="100px"> <br>
+                            <span class="skills_text">Writing semantic, valid, cross-browser <br> and quality HTML</span>
+                        </p>
+
+
+                    </a>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                    <a class="skills_name" href="#">
+                        <p class="skills_p">
+                            <span>CSS</span> <br>
+                            <img class="skills_img" src="css-3.png" width="100px"> <br>
+                            <span class="skills_text">Writing quality and easily <br> extensible CSS code</span>
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                    <a class="skills_name" href="#">
+                        <p class="skills_p">
+                            <span class="skills_name">JavaScript</span> <br>
+                            <img class="skills_img" src="javascript.png" .png" width="100px"> <br>
+                            <span class="skills_text">Writing scripts in the native JS for the dynamic behavior
+                                of the page interface</span>
+                        </p>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row">
+
+                    <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4 html_border">
+                            <a class="skills_name" href="#">
+                                <p class="skills_p">
+                                    <span class="skills_name">Bootstrap 4</span> <br>
+                                    <img class="skills_img" src="bootstrap.png" width="100px"> <br>
+                                    <span class="skills_text">Build on Bootstrap interface for <br> making sites adaptive/responsive</span>
+                                </p>
+        
+        
+                            </a>
+                        </div>
+        
+                        <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                            <a class="skills_name" href="#">
+                                <p class="skills_p">
+                                    <span>Photoshop</span> <br>
+                                    <img class="skills_img" src="photoshop.png" width="100px"> <br>
+                                    <span class="skills_text">Working with PSD in <br> Adobe Photoshop</span>
+                                </p>
+                            </a>
+        
+                        </div>
+        
+                        <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                            <a class="skills_name" href="#">
+                                <p class="skills_p">
+                                    <span class="skills_name">jQuery</span> <br>
+                                    <img class="skills_img" src="jquery-icon-png-28.jpg" .png" width="95px"> <br>
+                                    <span class="skills_text">Using jQuery library to make it <br> much easier to use JavaScript</span>
+                                </p>
+                            </a>
+        
+                        </div>
+        
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+        <div class="container project">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 id="proekty" class="projects">PROJECTS</h2>
+                </div>
+            </div>
+
+            <div class="row skills h-100">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="card1">
+                        <h3 class="skills_first text-center"><i>HTML, CSS</i></h3><br>
+                        <div class="skills_icons align-self-center">
+
+                            <a href="portfolio1.jpg" target="_blank">
+                                <img class="monitor" src="monitor.svg" width="180px">
+                            </a>
+
+                            <a href="portfolio2.jpg" target="_blank">
+                                <img class="monitor" src="monitor.svg" width="180px"><br>
+                            </a>
+
+                            <a href="portfolio3.jpg" target="_blank">
+                                <img class="monitor" src="monitor.svg" width="180px">
+                            </a>
+
+                            <a href="portfolio4.png" target="_blank">
+                                <img class="monitor" src="monitor.svg" width="180px">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="card1">
+                        <h3 class="skills_second text-center"><i>JavaScript</i></h3>
+                        <div class="skills_icons align-self-center">
+
+                            <a href="#" target="_blank">
+                                <img class="monitor" src="monitor.svg" width="180px">
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <img class="monitor" src="monitor.svg" width="180px">
+                            </a><br>
+
+                            <a href="#" target="_blank">
+                                <img class="monitor" src="monitor.svg" width="180px">
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <img class="monitor" src="monitor.svg" width="180px">
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 id="contacti" class="contacts">Contacts</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid back_footer">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+
+                    <div class="phone">
+                        <div class="col-auto icons">
+                            <a class="inst" href="https://www.instagram.com/_delya_____/?hl=ru"><img class="insta"
+                                    src="instagram (1).svg" width="100px"></a>
+                            <a class="vk" href="https://github.com/Delyaday"><img class="face" src="github-logo.png"
+                                    width="110px"></a>
+
+                        </div>
+                        <a class="mail" href="https://mail.ru/">
+                            <p class="p_footer"> qukmoonfar4567@mail.ru</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--Popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/a2fbafccf0.js"></script>
+
+    <!--Файл JS-->
+    <script type="text/javascript" src="main.js"></script>
+
+
+</body>
+
+</html>
