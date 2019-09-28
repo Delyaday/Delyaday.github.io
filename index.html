@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--СSS-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--Bootstrap 4-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Портфолио</title>
+</head>
+
+<body>
+
+
+    <section id="glavnaya" class="header">
+
+        <!--Navigation-->
+        <nav id="menu" class="navbar navbar-expand-md sticky-top">
+            <div class="container-fluid background">
+
+                <a href="#" class="navbar-brand"><img class="header__logo" src="buffer.svg" alt="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <img src="menu.svg" style="width: 40px;" alt="menu_icon">
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#glavnaya" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#obomne" class="nav-link">About me</a></li>
+                        <li class="nav-item"><a href="#skill" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#proekty" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contacti" class="nav-link">Contacts</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!--Text FRONTEND-->
+        <div class="overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-4 offset-md-5">
+                        <h1 class="header__h1"><a href="#"><span class="header__h1__f">F</span>RONTEND</a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="about__me">
+        <canvas class="about__me__matrix" id="q"></canvas>
+        <div class="about__me__align">
+            <div id="obomne" class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="description text-center about__me__left__block">
+                            <h2>WELCOME</h2>
+                            <p>My name is Adelya, I'm 20 years old and I'm a Web Progammer.
+                                My speciality is Frontend. You can find some of my projects
+                                on this page, which were created within the last six months.
+                                Portfolio is updated very often, as I am constantly learning
+                                something new and implementing various interesting projects.<br>
+                            </p>
+                            <p>Below you will find my skills, examples of works and contact info.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-5 offset-md-1 ">
+                        <p class="about__me__photo__align"><img class="about__me__photo" src="nicole2.jpg" alt="photo">
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 id="skill" class="skills__h2">SKILLS</h2>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4 html_border">
+                    <a class="skills__name" href="#">
+                        <p class="skills__p">
+                            <span class="skills_name">HTML</span> <br>
+                            <img class="skills_img" src="html-5.png" style="width:100px;" alt="html"> <br>
+                            <span class="skills__text">Writing semantic, valid, cross-browser <br> and quality
+                                HTML</span>
+                        </p>
+
+
+                    </a>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                    <a class="skills__name" href="#">
+                        <p class="skills__p">
+                            <span>CSS</span> <br>
+                            <img class="skills_img" src="css-3.png" style="width:100px;" alt="css"> <br>
+                            <span class="skills__text">Writing semantic, valid, cross-browser <br> and quality
+                                CSS</span>
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                    <a class="skills__name" href="#">
+                        <p class="skills__p">
+                            <span class="skills__name">JavaScript</span> <br>
+                            <img class="skills_img" src="javascript.png" style="width:100px;" alt="js"> <br>
+                            <span class="skills__text">Writing scripts in native JS for dynamic behavior of
+                                websites</span>
+                        </p>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row">
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                    <a class="skills__name" href="#">
+                        <p class="skills__p">
+                            <span class="skills__name">Bootstrap 4</span> <br>
+                            <img class="skills_img" src="bootstrap.png" style="width:100px;" alt="bootstrap"> <br>
+                            <span class="skills__text">Build on Bootstrap interface for <br> making sites
+                                adaptive/responsive</span>
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                    <a class="skills__name" href="#">
+                        <p class="skills__p">
+                            <span>Photoshop</span> <br>
+                            <img class="skills_img" src="photoshop.png" style="width:100px;" alt="photoshop"> <br>
+                            <span class="skills__text">Using Adobe Photoshop
+                                for <br> working with PSD (site layouts)
+
+                            </span>
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-xl-4 col-lg-4">
+                    <a class="skills__name" href="#">
+                        <p class="skills__p">
+                            <span class="skills__name">jQuery</span> <br>
+                            <img class="skills_img" src="jquery-icon-png-28.jpg" style="width:95px;" alt="jQuery"> <br>
+                            <span class="skills__text">Using jQuery library to make it <br> much easier to use
+                                JavaScript</span>
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section class="projects">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 id="proekty" class="projects__h2">PROJECTS</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row projects__gallery">
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="projects__gallery__block">
+                        <img class="projects__gallery__photo"
+                            src="screenshot-delyaday.github.io-2019.09.25-13_42_29.png"
+                            style="width: 350px; height: 260px;" />
+                        <div class="img__description_layer">
+                            <p class="img__description">My first homepage for CCTV shop</p>
+                            <button><a href="https://delyaday.github.io/home-page/">View</a></button>
+                        </div>
+                    </div>
+                    <button class="button__hidden"><a href="https://delyaday.github.io/home-page/">View</a></button>
+                </div>
+
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="projects__gallery__block">
+                        <img class="projects__gallery__photo"
+                            src="portfolio_first.png"
+                            style="width: 350px; height: 260px;" />
+                        <div class="img__description_layer">
+                            <p class="img__description">Adaptive website with modal window, photo gallery and YandexMap</p>
+                            <button><a href="https://delyaday.github.io/website-test/">View</a></button>
+                        </div>
+                    </div>
+                    <button class="button__hidden"><a href="https://delyaday.github.io/website-test/">View</a></button>
+                </div>
+
+
+              
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="footer">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 id="contacti" class="footer__h2">Contacts</h2>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid footer__content">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="footer__text">Here you can go to my accounts on Instagram and GitHub, <br>
+                        or send me an email by clicking on the mail link</p>
+                    <div class="phone">
+                        <div class="col-auto footer__icons">
+                            <a class="footer__icon__inst" href="https://www.instagram.com/_delya_____/?hl=ru"><img
+                                    class="footer__icon__inst" src="instagram(1).svg" alt="inst_logo"></a>
+                            <a class="footer__icon__vk" href="https://github.com/Delyaday"><img
+                                    class="footer__icon__inst" src="github-logo.png" alt="github_logo"></a>
+
+                        </div>
+                        <a class="footer__mail__a" href="mailto:qukmoonfar4567@mail.ru">
+                            <p class="footer__mail">qukmoonfar4567@mail.ru</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/55403431" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--Popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/a2fbafccf0.js"></script>
+
+    <!--Файл JS-->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
